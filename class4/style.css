@@ -15,6 +15,8 @@ nav {
         align-items: center;
         padding: 1rem 3rem;
 
+
+
         img {
             height: 2.5rem;
         }
@@ -28,7 +30,7 @@ nav {
                     list-style: none;
 
                     a {
-                        color: red;
+                        color: rgb(255, 255, 255);
                         text-decoration: none;
                     }
                 }
@@ -43,13 +45,24 @@ section {
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        .overflow {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            height: 100vh;
+            width: 50%;
+            background-color: red;
+        }
+
         .left {
             h1 {
                 font-size: 3rem;
                 color: red;
                 padding-bottom: 1rem;
             }
-            
+
             p {
                 padding-bottom: 1rem;
 
@@ -70,6 +83,56 @@ section {
         .right {
             img {
                 height: 20rem;
+            }
+        }
+    }
+}
+
+.cardDiv{
+    padding-bottom: 3rem;
+    h1{
+        text-align: center;
+        padding: 5rem 0;
+        font-size: 3rem;
+        color: red;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        .card{
+            border: 2px solid red;
+            width: 16rem;
+            border-radius: 7px;
+            padding: 1rem;
+            img{
+                height: 10rem;
+            }
+            h2{
+                font-size: 1.5rem;
+                color: red;
+                padding-left: 1rem;
+            }
+            p{
+                padding-left: 1rem;
+                padding-bottom: .8rem;
+            }
+            button{
+                margin-left: 1rem;
+                padding: .4rem 1rem;
+                border: none;
+                border-radius: 7px;
+                background-color: red;
+                color: #fff;
+                cursor: pointer;
+                border: 2px solid red;
+                transition: 200ms all;
+                &:hover{
+                    background-color: transparent;
+                    color: red;
+                }
             }
         }
     }

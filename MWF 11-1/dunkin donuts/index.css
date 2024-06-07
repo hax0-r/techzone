@@ -244,12 +244,29 @@ nav {
         cursor: pointer;
         border: 2px solid var(--pink-color);
         transition: 200ms all;
+        position: relative;
 
         &:hover {
           background-color: transparent;
           color: var(--pink-color);
 
+          &::before {
+            content: "Add to cart";
+            position: absolute;
+            background-color: #6d6d6d;
+            bottom: -2.3rem;
+            left: 10px;
+            color: #fff;
+            border-radius: 7px;
+            font-size: 12px;
+            padding: .3rem .8rem;
+            text-wrap: nowrap;
+            font-weight: 400;
+          }
         }
+
+
+
       }
 
       .fa-heart {
@@ -369,6 +386,63 @@ nav {
         font-size: 1rem;
         padding: 0 .3rem;
         border-radius: 3px;
+      }
+    }
+  }
+}
+
+footer {
+  padding: 5rem 0;
+  max-width: 80rem;
+  margin: auto;
+  .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+      height: 2rem;
+    }
+    .left{
+      h3{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+     p{
+      line-height: 1.8rem;
+     } 
+    }
+    .right{
+      h3{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      span{
+        display: flex;
+        gap: 4rem;
+        margin-bottom: 1rem;
+      }
+      h3{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      .footericons{
+        display: flex;
+        gap: 1rem;
+        i{
+          font-size: 1.8rem;
+          background:linear-gradient(125deg, #405de6,#e1306c,#fcaf45);
+          color: #fff;
+          padding: .5rem;
+          border-radius: 7px;
+
+
+          &:first-child{
+            background: unset;
+            background-color: #3764b9;
+            color: #fff;
+            padding: .5rem .7rem;
+          }
+        }
       }
     }
   }

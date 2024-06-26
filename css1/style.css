@@ -1,0 +1,30 @@
+/* h1{
+    color: pink;
+    border: 10px solid red;
+    border-radius: 4px;
+}
+p{
+    font-size: 1rem;
+    border: 2px solid rgb(62, 9, 255);
+    border-radius: 10px;
+} */
+
+/* p{
+    background-color: pink;
+} */
+
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    color: lightgreen;
+}
+
+ul li{
+    color: lightgreen;
+}
+
+p{
+    color: lightgreen;
+}

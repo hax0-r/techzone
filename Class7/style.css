@@ -1,0 +1,51 @@
+h1{
+    text-align: start;
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+}
+p{
+    /* line-height: 50px; */
+    text-decoration: none;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    /* text-indent: 250px; */
+    text-indent: 10in;
+
+}
+
+/* ul li::marker{ */
+    /* content: "¯\_(ツ)_/¯ "; */
+    /* list-style-type: armenian; */
+    /* list-style-image: url(./img.jpg); */
+/* } */
+
+h3{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 16px;
+    font-weight: bolder;
+    font-style:italic ;
+    font-variant: small-caps;
+}
+
+/* p{
+    color: red;
+    background-color: yellow;
+} */
+
+#para1{
+    color: red;
+}
+
+.para2{
+    color: blue;
+}
+
+#hhh{
+    color: green;
+}
+
+p{
+    color: red;
+}
